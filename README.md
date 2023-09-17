@@ -1,2 +1,5 @@
-# K-Nearest-Neighbors-Classifier
-Exploration of K Nearest Neighbors Classifier Algorithm
+# K Nearest Neighbors Classifier
+k-Nearest Neighbors (kNN) is a machine learning algorithm used for both classification and regression problems. In a kNN algorithm, data points are stored, and a prediction is made for a new data point by identifying the k nearest data points to the new data point and aggregating the results from those k data points. In a classification problem, if k = 3, the three nearest data points to the new data point are examined, and the most frequent class among those three data points is assigned as the predicted class for the new data point. In a regression problem, the mean or median value of the k nearest data points is used as the predicted output value for the new data point.
+
+
+In this notebook, we will be fitting the k nearest neighbors classifier algorithm on the IRIS dataset. We will be trying out different k values, for the number of neighbors to consider(1,3,5,7) and assessing the performance of the algorithm for each of the corresponding k values. While comparing the performance of the algortithms we will be trying out different distance/similarity metrics to see which one works the best.
